@@ -5,7 +5,7 @@
 replicaCount: 3
 
 image:
-  repository: nginx
+  repository: nzjourney/simple-dsl-web
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1.1.0"
